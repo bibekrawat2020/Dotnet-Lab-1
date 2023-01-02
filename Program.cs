@@ -1,12 +1,9 @@
 ﻿int[] numbers = { 4, 8, 15, 16, 23, 42 };
+int total = 0;
+bool found = true;
 foreach (int number in numbers)
 {
-    int total;
     total += number;
-    if (number == 42)
-    {
-       bool found = true;
-    }
 }
 if (found) 
 {
